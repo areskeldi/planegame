@@ -43,7 +43,7 @@ var main = {
             { font: "15px Arial", fill: "#ffffff" });
         this.labelInstruction = scene.add.text(30, 30, "Press SPACEBAR to jump", 
             { font: "15px Arial", fill: "#ffffff" });
-        this.labelInvitation = scene.add.text(30, 450, "Follow @areskeldi on Instagram",
+        this.labelInvitation = scene.add.text(30, 470, "@areskeldi",
             { font: "15px Arial", fill: "#ffffff" });
         this.plane.anchor.setTo(-0.2, 0.5); 
         this.sound = scene.add.audio('jump');
